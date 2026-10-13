@@ -948,6 +948,19 @@ button {
   color: var(--ink);
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5;
+  height: calc(1.5rem + 1.2rem);
+}
+/* iOS Safari draws date fields natively: wider than their column, centred, taller and without the hairline. */
+.field__input[type='date'] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  text-align: left;
+}
+.field__input::-webkit-date-and-time-value {
+  margin: 0;
+  text-align: left;
 }
 .field__input:focus-visible {
   outline: 2px solid var(--orange);
