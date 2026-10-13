@@ -218,7 +218,7 @@ export default {
     iconAlt: 'Timity-App-Symbol',
     title: 'Lass jeden Moment zählen.',
     lede: 'Timity ist kostenlos im App Store für iPhone, iPad und Apple Watch.',
-    meta: 'Erfordert iOS 26 oder neuer · Auf English, Deutsch, Español und Français',
+    meta: 'Erfordert iOS 27 oder neuer · Auf English, Deutsch, Español und Français',
   },
 
   footer: {
