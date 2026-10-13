@@ -218,7 +218,7 @@ export default {
     iconAlt: 'Icono de Timity',
     title: 'Haz que cada momento cuente.',
     lede: 'Timity es gratis en el App Store para iPhone, iPad y Apple Watch.',
-    meta: 'Requiere iOS 26 o posterior · Disponible en English, Deutsch, Español y Français',
+    meta: 'Requiere iOS 27 o posterior · Disponible en English, Deutsch, Español y Français',
   },
 
   footer: {
