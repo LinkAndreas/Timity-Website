@@ -89,6 +89,9 @@ to `ghcr.io/linkandreas/timity-website`, tagged with the commit SHA. The VPS the
 
 To roll back, run on the VPS: `cd ~/timity-website && TAG=<older commit sha> docker compose up -d`.
 
+Cloudflare's Email Obfuscation (on for the whole `linkandreas.de` zone) rewrites the `mailto:` links in the served
+pages and decodes them with a script from `/cdn-cgi/`; the Content Security Policy allows it, as it's same-origin.
+
 ### First-time setup
 
 1. **Create the repository** on GitHub, e.g. `LinkAndreas/Timity-Website` (public, no README or license — this
