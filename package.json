@@ -2,8 +2,8 @@
   "name": "timity-site",
   "private": true,
   "license": "MIT",
-  "version": "1.0.3",
-  "description": "Marketing website for Timity \u2014 countdowns, count-ups and time calculators for iPhone, iPad and Apple Watch.",
+  "version": "1.0.4",
+  "description": "Marketing website for Timity — countdowns, count-ups and time calculators for iPhone, iPad and Apple Watch.",
   "type": "module",
   "scripts": {
     "dev": "vite",
