@@ -1107,23 +1107,35 @@ button {
     top: calc(52px + 3rem);
   }
 }
+/* Narrow screens show the calculator on its own; wide ones lay it over the list of calculators. */
 .calcs__phones {
   position: relative;
   display: grid;
   justify-items: center;
-  padding-right: clamp(4rem, 12vw, 7rem);
 }
 .calcs__phones .device {
-  width: min(290px, 62vw);
+  width: min(290px, 70vw);
 }
 .calcs__back {
-  opacity: 0.95;
+  display: none;
 }
-.calcs__front {
-  position: absolute;
-  top: 12%;
-  left: calc(50% - min(145px, 31vw) + clamp(4rem, 12vw, 7rem) - clamp(2rem, 6vw, 3.5rem));
-  filter: drop-shadow(-20px 30px 50px rgb(80 30 10 / 0.25));
+@media (min-width: 960px) {
+  .calcs__phones .device {
+    width: min(270px, 58%);
+  }
+  .calcs__back {
+    display: block;
+    grid-area: 1 / 1;
+    justify-self: start;
+    opacity: 0.95;
+  }
+  /* Stacked in the same cell, a little lower and to the right; the margin keeps the offset inside the box. */
+  .calcs__front {
+    grid-area: 1 / 1;
+    justify-self: end;
+    margin-top: 12%;
+    filter: drop-shadow(-20px 30px 50px rgb(80 30 10 / 0.25));
+  }
 }
 .calcs__groups {
   display: grid;
