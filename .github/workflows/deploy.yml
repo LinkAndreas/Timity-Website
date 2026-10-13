@@ -9,11 +9,12 @@ name: Deploy to Hostinger VPS
 #
 # Repository secrets: HOSTINGER_HOST, HOSTINGER_USERNAME, HOSTINGER_SSH_KEY
 
+# Every push to main (each release) deploys; Actions › Run workflow deploys by hand.
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 concurrency:
   group: deploy
