@@ -26,7 +26,7 @@ export const site = {
   },
 
   /** Effective date of the privacy policy (ISO). Update whenever its text changes. */
-  legalEffectiveDate: '2026-10-13',
+  legalEffectiveDate: '2026-10-18',
 
   /** Languages, in switcher order — the app's own. The first is the default at the site root. */
   languages: [

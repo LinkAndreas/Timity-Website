@@ -253,7 +253,7 @@ export function renderHome(lang, t) {
         <ul class="glance__list container" role="list">
           <li><strong>${calculatorCount}</strong><span>${t.glance.calculators}</span></li>
           <li><strong>${site.languages.length}</strong><span>${t.glance.languages}</span></li>
-          <li><strong>3</strong><span>${t.glance.devices}</span></li>
+          <li><strong>4</strong><span>${t.glance.devices}</span></li>
           <li><strong>0</strong><span>${t.glance.accounts}</span></li>
         </ul>
       </section>

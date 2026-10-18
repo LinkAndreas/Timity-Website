@@ -1,7 +1,7 @@
 # Timity website
 
 Marketing site for [Timity](https://github.com/LinkAndreas/Timity) — countdowns, count-ups and time calculators for
-iPhone, iPad and Apple Watch — in English, German, Spanish and French (the app's languages), with its Privacy Policy.
+iPhone, iPad, Mac and Apple Watch — in English, German, Spanish and French (the app's languages), with its Privacy Policy.
 Static HTML rendered at build time, built with Vite. Same structure as the
 [ImgZen](https://github.com/LinkAndreas/ImgZen-Website) and [Breathia](https://github.com/LinkAndreas/Breathia-Website)
 websites.
