@@ -2,12 +2,12 @@
 
 export default {
   meta: {
-    title: 'Timity — Cuentas atrás y calculadoras de tiempo para iPhone, iPad y Apple Watch',
+    title: 'Timity — Cuentas atrás y calculadoras de tiempo para iPhone, iPad, Mac y Apple Watch',
     alternateName: 'Timity: cuenta atrás y días desde',
     description:
-      'Cuenta los días hasta cumpleaños, viajes y plazos, y mira cuánto tiempo ha pasado desde los momentos que dejaste atrás. Catorce calculadoras para preguntas cotidianas sobre el tiempo, amanecer y atardecer en cualquier lugar, widgets y Apple Watch. Gratis, sin cuenta.',
+      'Cuenta los días hasta cumpleaños, viajes y plazos, y mira cuánto tiempo ha pasado desde los momentos que dejaste atrás. Catorce calculadoras para preguntas cotidianas sobre el tiempo, el sol y la luna en cualquier lugar, widgets, Mac y Apple Watch. Gratis, sin cuenta.',
     ogTitle: 'Timity — Cada momento cuenta',
-    ogDescription: 'Cuentas atrás, días desde y calculadoras para cada pregunta sobre el tiempo, en iPhone, iPad y Apple Watch.',
+    ogDescription: 'Cuentas atrás, días desde y calculadoras para cada pregunta sobre el tiempo, en iPhone, iPad, Mac y Apple Watch.',
     ogImageAlt: 'El icono de Timity —un anillo de cuenta atrás sobre naranja— con el texto: Timity, Cada momento cuenta.',
   },
 
@@ -27,15 +27,15 @@ export default {
   nav: {
     events: 'Cuentas atrás',
     calculators: 'Calculadoras',
-    sun: 'Sol',
+    sun: 'Sol y Luna',
     everywhere: 'Widgets y Watch',
     privacy: 'Privacidad',
   },
 
   hero: {
-    eyebrow: 'Timity para iPhone, iPad y Apple Watch',
+    eyebrow: 'Timity para iPhone, iPad, Mac y Apple Watch',
     title: 'Cada momento,<br /><span class="hero__title-glow">contado.</span>',
-    lede: 'Cuenta los días hasta lo que está por llegar —cumpleaños, viajes, exámenes— y mira cuánto tiempo ha pasado desde lo que dejaste atrás. Además, una calculadora para cada pregunta sobre el tiempo, y el sol estés donde estés.',
+    lede: 'Cuenta los días hasta lo que está por llegar —cumpleaños, viajes, exámenes— y mira cuánto tiempo ha pasado desde lo que dejaste atrás. Además, una calculadora para cada pregunta sobre el tiempo, y el sol y la luna estés donde estés.',
     secondary: 'Crear una cuenta atrás',
     meta: 'Gratis · Sin cuenta · Sin anuncios',
     phoneAlt: 'Timity en el iPhone: una cuenta atrás en directo para un viaje a Lisboa, quedan 12 días, desglosados en semanas, días, horas, minutos y segundos; ha pasado el 84 % de la espera.',
@@ -59,7 +59,7 @@ export default {
     label: 'Timity de un vistazo',
     calculators: 'calculadoras, cada una responde a una pregunta',
     languages: 'idiomas: English, Deutsch, Español, Français',
-    devices: 'dispositivos sincronizados: iPhone, iPad, Apple Watch',
+    devices: 'dispositivos sincronizados: iPhone, iPad, Mac, Apple Watch',
     accounts: 'cuentas, anuncios o rastreadores',
   },
 
@@ -71,6 +71,7 @@ export default {
       '<strong>Cuenta atrás o hacia delante</strong>: hasta una fecha futura, o desde una pasada, como el día que dejaste de fumar.',
       '<strong>Repeticiones de diarias a anuales</strong>, incluso en los calendarios chino, hebreo e islámico, para que los cumpleaños lunares y las fiestas caigan en el día correcto.',
       '<strong>Hazlos tuyos</strong> con un color y un símbolo, una foto, notas, una lista de tareas, una barra de progreso, recordatorios y listas. Fija los más importantes.',
+      '<strong>Cada detalle de la fecha</strong>: el día de la semana y el número de semana, y en cumpleaños y aniversarios el tiempo exacto desde el primero, de años a segundos.',
     ],
     alt: 'La lista de eventos de Timity: tarjetas fijadas para un viaje a Lisboa y el cumpleaños de mamá, y debajo los eventos próximos y pasados, cada uno con sus días.',
   },
@@ -106,11 +107,12 @@ export default {
       {
         title: 'Fechas y plazos',
         items: [
-          ['Contar días', '¿Cuántos días hay entre dos fechas?'],
+          ['Tiempo entre fechas', '¿Cuánto hay de una fecha a otra?'],
           ['Buscar una fecha', '¿Qué fecha será dentro de 90 días?'],
           ['Días laborables', '¿Cuántos días laborables hasta un plazo?'],
           ['Puentes', '¿Qué días libres dan las pausas más largas?'],
           ['Número de semana', '¿En qué semana del año estamos?'],
+          ['Conversor de calendarios', '¿Qué fecha es en el calendario hebreo o islámico?'],
         ],
       },
       {
@@ -120,29 +122,29 @@ export default {
           ['Horas de trabajo', '¿Cuánto he trabajado y cuánto he ganado?'],
           ['Zonas horarias', '¿Qué hora es para mis amigos en el extranjero?'],
           ['Llegada del vuelo', '¿A qué hora aterrizo, en hora local?'],
+          ['Hora de dormir', '¿A qué hora debería acostarme esta noche?'],
         ],
       },
       {
         title: 'Tú y tu familia',
         items: [
-          ['Hora de dormir', '¿A qué hora debería acostarme esta noche?'],
           ['Edad exacta', '¿Qué edad tengo, al día exacto?'],
           ['Hitos', '¿Cuándo cumplo 10.000 días?'],
           ['La vida en semanas', '¿Cuántas semanas he vivido hasta ahora?'],
-          ['Fecha prevista de parto', '¿Cuándo nacerá el bebé?'],
         ],
       },
     ],
     listAlt: 'Calcular en Timity: calculadoras agrupadas en Fechas y plazos y Horas y zonas horarias, cada una con la pregunta que responde.',
-    alt: 'Contar días en Timity: del 13 oct 2026 al 13 nov 2026 hay 31 días, es decir, 4 semanas y 3 días, o 745 horas.',
+    alt: 'Tiempo entre fechas en Timity: del 13 oct 2026 al 13 nov 2026 hay 31 días, es decir, 4 semanas y 3 días, o 745 horas.',
   },
 
   sun: {
-    eyebrow: 'Sol',
+    eyebrow: 'Sol y Luna',
     title: 'Atrapa la hora dorada.',
-    lede: 'Amanecer, atardecer, hora dorada, hora azul y crepúsculo, para donde estés o para cualquier ciudad que elijas, cada una en su zona horaria. Para el paseo fotográfico, la carrera antes del trabajo, la tarde en el balcón.',
+    lede: 'Amanecer, atardecer, hora dorada, hora azul y crepúsculo —y la luna— para donde estés o para cualquier ciudad que elijas, cada una en su zona horaria. Para el paseo fotográfico, la carrera antes del trabajo, la tarde en el balcón.',
     ticks: [
       '<strong>El recorrido del sol a lo largo del día</strong>, con su altura ahora mismo y cuánta luz ganas o pierdes.',
+      '<strong>También la luna</strong>: la fase de hoy, las fases de un mes, la salida y la puesta de la luna, y las lunas llenas del año.',
       '<strong>Cualquier ciudad del mundo</strong>, en su propia zona horaria: planifica el atardecer de tu próximo viaje desde casa.',
       '<strong>En tu pantalla de inicio</strong> como widget, y en tu Apple Watch.',
     ],
@@ -154,7 +156,7 @@ export default {
     title: '¿Cuánto falta?<br class="br-lg" /> Sin abrir la app.',
     lede: 'Timity muestra tus cuentas atrás allá donde mires y las mantiene sincronizadas en tus dispositivos a través de tu propio iCloud.',
     cards: [
-      { title: 'Widgets', body: 'Tu próximo evento, uno fijado o una lista entera en la pantalla de inicio, en tamaño pequeño, mediano y grande.' },
+      { title: 'Widgets', body: 'Tu próximo evento, uno fijado o una lista entera en la pantalla de inicio y en el escritorio del Mac, en tamaño pequeño, mediano y grande.' },
       { title: 'Pantalla bloqueada y esferas', body: 'Un vistazo a tu muñeca o a tu pantalla bloqueada te muestra los días que faltan, con un anillo que se llena a medida que se acerca el día.' },
       { title: 'Actividades en vivo', body: 'Las últimas horas se cuentan en directo en la pantalla bloqueada y en la Dynamic Island.' },
       { title: 'App para Apple Watch', body: 'Tus eventos en la muñeca. Añade nuevos y elimina los antiguos desde ahí mismo.' },
@@ -182,14 +184,15 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad',
+    eyebrow: 'iPad y Mac',
     title: 'Espacio para cada momento.',
-    lede: 'En el iPad, una barra lateral te lleva a todas partes —tus eventos, cada calculadora y el sol— con la lista y la cuenta atrás una al lado de la otra.',
+    lede: 'En el iPad y el Mac, una barra lateral te lleva a todas partes —tus eventos, cada calculadora, el sol y la luna— con la lista y la cuenta atrás una al lado de la otra.',
     alt: 'Timity en el iPad: una barra lateral con Eventos, Calcular, Sol y Ajustes, la lista de eventos y la cuenta atrás en directo del viaje a Lisboa con su lista de tareas.',
     points: [
       '<strong>Tres columnas</strong>: barra lateral, lista y cuenta atrás a la vez.',
       '<strong>Cada calculadora</strong> a un toque en la barra lateral.',
       '<strong>Atajos de teclado</strong> para un evento nuevo, buscar y más.',
+      '<strong>Una auténtica app para Mac</strong>: tus próximas cuentas atrás en la barra de menús, un menú Evento, eventos en ventanas propias y Deshacer.',
     ],
   },
 
@@ -217,8 +220,8 @@ export default {
   cta: {
     iconAlt: 'Icono de Timity',
     title: 'Haz que cada momento cuente.',
-    lede: 'Timity es gratis en el App Store para iPhone, iPad y Apple Watch.',
-    meta: 'Requiere iOS 27 o posterior · Disponible en English, Deutsch, Español y Français',
+    lede: 'Timity es gratis en el App Store para iPhone, iPad, Mac y Apple Watch.',
+    meta: 'Requiere iOS 27 o macOS 27 o posterior · Disponible en English, Deutsch, Español y Français',
   },
 
   footer: {
@@ -228,7 +231,7 @@ export default {
     feedback: 'Enviar comentarios',
     github: 'Código abierto en GitHub',
     disclaimer:
-      'Apple, el logotipo de Apple, Apple Watch, iPad, iPhone, iCloud, Siri y App Store son marcas comerciales de Apple Inc., registradas en EE. UU. y en otros países.',
+      'Apple, el logotipo de Apple, Apple Watch, iPad, iPhone, Mac, macOS, iCloud, Siri y App Store son marcas comerciales de Apple Inc., registradas en EE. UU. y en otros países.',
   },
 
   legal: {

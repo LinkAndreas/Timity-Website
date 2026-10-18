@@ -3,12 +3,12 @@
 
 export default {
   meta: {
-    title: 'Timity — Countdowns & Time Calculators for iPhone, iPad & Apple Watch',
+    title: 'Timity — Countdowns & Time Calculators for iPhone, iPad, Mac & Apple Watch',
     alternateName: 'Timity: Countdown & Days Since',
     description:
-      'Count down to birthdays, trips and deadlines, and see how long it’s been since the moments behind you. Fourteen calculators for everyday questions about time, sunrise and sunset anywhere, widgets and Apple Watch. Free, no account.',
+      'Count down to birthdays, trips and deadlines, and see how long it’s been since the moments behind you. Fourteen calculators for everyday questions about time, the sun and moon anywhere, widgets, Mac and Apple Watch. Free, no account.',
     ogTitle: 'Timity — Every moment, counted',
-    ogDescription: 'Countdowns, count-ups and calculators for every question about time — on iPhone, iPad and Apple Watch.',
+    ogDescription: 'Countdowns, count-ups and calculators for every question about time — on iPhone, iPad, Mac and Apple Watch.',
     ogImageAlt: 'The Timity app icon — a countdown ring on orange — with the words: Timity, Every moment, counted.',
   },
 
@@ -28,15 +28,15 @@ export default {
   nav: {
     events: 'Countdowns',
     calculators: 'Calculators',
-    sun: 'Sun',
+    sun: 'Sun & Moon',
     everywhere: 'Widgets & Watch',
     privacy: 'Privacy',
   },
 
   hero: {
-    eyebrow: 'Timity for iPhone, iPad &amp; Apple Watch',
+    eyebrow: 'Timity for iPhone, iPad, Mac &amp; Apple Watch',
     title: 'Every moment,<br /><span class="hero__title-glow">counted.</span>',
-    lede: 'Count down to the dates ahead — birthdays, trips, exams — and see how long it’s been since the ones behind you. Plus a calculator for every question about time, and the sun wherever you are.',
+    lede: 'Count down to the dates ahead — birthdays, trips, exams — and see how long it’s been since the ones behind you. Plus a calculator for every question about time, and the sun and moon wherever you are.',
     secondary: 'Make a countdown',
     meta: 'Free · No account · No ads',
     phoneAlt: 'Timity on iPhone: a live countdown to a trip to Lisbon, 12 days to go, broken down into weeks, days, hours, minutes and seconds, with 84% of the wait over.',
@@ -60,7 +60,7 @@ export default {
     label: 'Timity at a glance',
     calculators: 'calculators, each answering one question',
     languages: 'languages: English, Deutsch, Español, Français',
-    devices: 'devices, in sync: iPhone, iPad, Apple Watch',
+    devices: 'devices, in sync: iPhone, iPad, Mac, Apple Watch',
     accounts: 'accounts, ads or trackers',
   },
 
@@ -72,6 +72,7 @@ export default {
       '<strong>Count down or count up</strong> — to a date ahead, or since one behind you, like the day you quit smoking.',
       '<strong>Repeats from daily to yearly</strong>, even in the Chinese, Hebrew and Islamic calendars, so lunar birthdays and holidays land on the right day.',
       '<strong>Make each one yours</strong> with a color and symbol, a photo, notes, a checklist, a progress bar, reminders and lists. Pin the ones that matter most.',
+      '<strong>Every detail of the date</strong> — its weekday and week, and for a birthday or anniversary the exact time since the very first one, from years down to seconds.',
     ],
     alt: 'The Events list in Timity: pinned cards for a trip to Lisbon and Mum’s birthday, then upcoming and past events, each with its days to go or days ago.',
   },
@@ -107,11 +108,12 @@ export default {
       {
         title: 'Dates &amp; Deadlines',
         items: [
-          ['Count Days', 'How many days between two dates?'],
+          ['Time Between', 'How long from one date to another?'],
           ['Find a Date', 'Which date is 90 days from today?'],
           ['Workdays', 'How many workdays until a deadline?'],
           ['Bridge Days', 'Which days off give the longest breaks?'],
           ['Week Number', 'Which week of the year is it?'],
+          ['Calendar Converter', 'What’s the date in the Hebrew or Islamic calendar?'],
         ],
       },
       {
@@ -121,29 +123,29 @@ export default {
           ['Work Hours', 'How long did I work, and what did I earn?'],
           ['Time Zones', 'What time is it for friends abroad?'],
           ['Flight Arrival', 'When do I land, in local time?'],
+          ['Bedtime', 'When should I go to bed tonight?'],
         ],
       },
       {
         title: 'You &amp; Your Family',
         items: [
-          ['Bedtime', 'When should I go to bed tonight?'],
           ['Exact Age', 'How old am I, to the day?'],
           ['Milestones', 'When am I 10,000 days old?'],
           ['Life in Weeks', 'How many weeks have I lived so far?'],
-          ['Due Date', 'When is the baby due?'],
         ],
       },
     ],
     listAlt: 'Calculate in Timity: calculators grouped into Dates &amp; Deadlines and Hours &amp; Time Zones, each with the question it answers.',
-    alt: 'Count Days in Timity: from October 13 to November 13, 2026 is 31 days — also 4 weeks and 3 days, or 745 hours.',
+    alt: 'Time Between in Timity: from October 13 to November 13, 2026 is 31 days — also 4 weeks and 3 days, or 745 hours.',
   },
 
   sun: {
-    eyebrow: 'Sun',
+    eyebrow: 'Sun &amp; Moon',
     title: 'Catch the golden hour.',
-    lede: 'Sunrise, sunset, golden and blue hour and twilight — for where you are, or any city you choose, each in its own time zone. For the photo walk, the run before work, the evening on the balcony.',
+    lede: 'Sunrise, sunset, golden and blue hour and twilight — and the moon — for where you are, or any city you choose, each in its own time zone. For the photo walk, the run before work, the evening on the balcony.',
     ticks: [
       '<strong>The sun’s path across the day</strong>, with its height right now and how much daylight you gain or lose.',
+      '<strong>The moon, too</strong> — today’s phase, a month of phases, moonrise and moonset, and the year’s full moons.',
       '<strong>Any city in the world</strong>, in its own time zone — plan the sunset of your next trip from home.',
       '<strong>On your Home Screen</strong> as a widget, and on your Apple Watch.',
     ],
@@ -155,7 +157,7 @@ export default {
     title: 'Never open the app<br class="br-lg" /> to know how long.',
     lede: 'Timity puts your countdowns wherever you look — and keeps them in sync across your devices through your own iCloud.',
     cards: [
-      { title: 'Widgets', body: 'Your next event, a pinned one or a whole list on the Home Screen — in small, medium and large.' },
+      { title: 'Widgets', body: 'Your next event, a pinned one or a whole list on the Home Screen, and on the Mac desktop — in small, medium and large.' },
       { title: 'Lock Screen &amp; Watch faces', body: 'A glance at your wrist or your Lock Screen shows the days to go, with a ring that fills as the day comes closer.' },
       { title: 'Live Activities', body: 'The final hours count down live on the Lock Screen and in the Dynamic Island.' },
       { title: 'Apple Watch app', body: 'Your events on your wrist. Add new ones and delete old ones right there.' },
@@ -183,14 +185,15 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad',
+    eyebrow: 'iPad &amp; Mac',
     title: 'Room for every moment.',
-    lede: 'On iPad, one sidebar takes you everywhere — your events, every calculator and the sun — with your list and the countdown side by side.',
+    lede: 'On iPad and Mac, one sidebar takes you everywhere — your events, every calculator, the sun and the moon — with your list and the countdown side by side.',
     alt: 'Timity on iPad: a sidebar with Events, Calculate, Sun and Settings, the list of events, and the live countdown to a trip to Lisbon with its checklist.',
     points: [
       '<strong>Three columns</strong> — sidebar, list and countdown at once.',
       '<strong>Every calculator</strong> one tap away in the sidebar.',
       '<strong>Keyboard shortcuts</strong> for a new event, search and more.',
+      '<strong>A true Mac app</strong> — your next countdowns in the menu bar, an Event menu, events in windows of their own, and Undo.',
     ],
   },
 
@@ -218,8 +221,8 @@ export default {
   cta: {
     iconAlt: 'Timity app icon',
     title: 'Make every moment count.',
-    lede: 'Timity is free on the App Store for iPhone, iPad and Apple Watch.',
-    meta: 'Requires iOS 27 or later · Available in English, Deutsch, Español and Français',
+    lede: 'Timity is free on the App Store for iPhone, iPad, Mac and Apple Watch.',
+    meta: 'Requires iOS 27 or macOS 27 or later · Available in English, Deutsch, Español and Français',
   },
 
   footer: {
@@ -229,7 +232,7 @@ export default {
     feedback: 'Send Feedback',
     github: 'Open source on GitHub',
     disclaimer:
-      'Apple, the Apple logo, Apple Watch, iPad, iPhone, iCloud, Siri and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.',
+      'Apple, the Apple logo, Apple Watch, iPad, iPhone, Mac, macOS, iCloud, Siri and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.',
   },
 
   legal: {
