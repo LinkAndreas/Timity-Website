@@ -185,15 +185,26 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad &amp; Mac',
+    eyebrow: 'iPad',
     title: 'Room for every moment.',
-    lede: 'On iPad and Mac, one sidebar takes you everywhere — your events, every calculator, the sun and the moon — with your list and the countdown side by side.',
+    lede: 'On iPad, one sidebar takes you everywhere — your events, every calculator, the sun and the moon — with your list and the countdown side by side.',
     alt: 'Timity on iPad: a sidebar with Events, Calculate, Sun and Settings, the list of events, and the live countdown to a trip to Lisbon with its checklist.',
     points: [
       '<strong>Three columns</strong> — sidebar, list and countdown at once.',
       '<strong>Every calculator</strong> one tap away in the sidebar.',
       '<strong>Keyboard shortcuts</strong> for a new event, search and more.',
-      '<strong>A true Mac app</strong> — your next countdowns in the menu bar, an Event menu, events in windows of their own, and Undo.',
+    ],
+  },
+
+  mac: {
+    eyebrow: 'Mac',
+    title: 'Right at home on your Mac.',
+    lede: 'A true Mac app, not an iPad app in a window: your events, every calculator, the sun and the moon in one window — in sync with your iPhone through iCloud.',
+    alt: 'Timity on a MacBook: a sidebar with Events, the calculators and Astronomy, the list of events with two pinned cards and a search field, and the live countdown to a trip to Lisbon.',
+    points: [
+      '<strong>In the menu bar</strong> — your next countdowns, one click away.',
+      '<strong>Made for the keyboard</strong> — arrow keys through your events, ⌘F to search, ⌘N for a new one.',
+      '<strong>Widgets on the desktop</strong> — and events in windows of their own, with Undo.',
     ],
   },
 

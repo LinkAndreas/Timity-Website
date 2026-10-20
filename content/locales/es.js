@@ -184,15 +184,26 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad y Mac',
+    eyebrow: 'iPad',
     title: 'Espacio para cada momento.',
-    lede: 'En el iPad y el Mac, una barra lateral te lleva a todas partes —tus eventos, cada calculadora, el sol y la luna— con la lista y la cuenta atrás una al lado de la otra.',
+    lede: 'En el iPad, una barra lateral te lleva a todas partes —tus eventos, cada calculadora, el sol y la luna— con la lista y la cuenta atrás una al lado de la otra.',
     alt: 'Timity en el iPad: una barra lateral con Eventos, Calcular, Sol y Ajustes, la lista de eventos y la cuenta atrás en directo del viaje a Lisboa con su lista de tareas.',
     points: [
       '<strong>Tres columnas</strong>: barra lateral, lista y cuenta atrás a la vez.',
       '<strong>Cada calculadora</strong> a un toque en la barra lateral.',
       '<strong>Atajos de teclado</strong> para un evento nuevo, buscar y más.',
-      '<strong>Una auténtica app para Mac</strong>: tus próximas cuentas atrás en la barra de menús, un menú Evento, eventos en ventanas propias y Deshacer.',
+    ],
+  },
+
+  mac: {
+    eyebrow: 'Mac',
+    title: 'Como en casa en tu Mac.',
+    lede: 'Una auténtica app para Mac, no una app de iPad en una ventana: tus eventos, cada calculadora, el sol y la luna en una sola ventana, sincronizados con tu iPhone a través de iCloud.',
+    alt: 'Timity en un MacBook: una barra lateral con Eventos, las calculadoras y Astronomía, la lista de eventos con dos tarjetas fijadas y un campo de búsqueda, y la cuenta atrás en directo del viaje a Lisboa.',
+    points: [
+      '<strong>En la barra de menús</strong>: tus próximas cuentas atrás, a un clic.',
+      '<strong>Pensada para el teclado</strong>: recorre tus eventos con las flechas, ⌘F para buscar y ⌘N para uno nuevo.',
+      '<strong>Widgets en el escritorio</strong>, y eventos en ventanas propias, con Deshacer.',
     ],
   },
 

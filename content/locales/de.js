@@ -184,15 +184,26 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad &amp; Mac',
+    eyebrow: 'iPad',
     title: 'Platz für jeden Moment.',
-    lede: 'Auf iPad und Mac bringt dich eine Seitenleiste überallhin — zu deinen Ereignissen, jedem Rechner, Sonne und Mond —, mit Liste und Countdown nebeneinander.',
+    lede: 'Auf dem iPad bringt dich eine Seitenleiste überallhin — zu deinen Ereignissen, jedem Rechner, Sonne und Mond —, mit Liste und Countdown nebeneinander.',
     alt: 'Timity auf dem iPad: eine Seitenleiste mit Ereignisse, Rechnen, Sonne und Einstellungen, die Ereignisliste und der Live-Countdown zur Reise nach Lissabon mit Checkliste.',
     points: [
       '<strong>Drei Spalten</strong> — Seitenleiste, Liste und Countdown zugleich.',
       '<strong>Jeder Rechner</strong> nur einen Tipp entfernt in der Seitenleiste.',
       '<strong>Tastaturkurzbefehle</strong> für neues Ereignis, Suche und mehr.',
-      '<strong>Eine echte Mac-App</strong> — deine nächsten Countdowns in der Menüleiste, ein Ereignis-Menü, Ereignisse in eigenen Fenstern und Widerrufen.',
+    ],
+  },
+
+  mac: {
+    eyebrow: 'Mac',
+    title: 'Auf dem Mac zu Hause.',
+    lede: 'Eine echte Mac-App, keine iPad-App im Fenster: deine Ereignisse, jeder Rechner, Sonne und Mond in einem Fenster — über iCloud mit deinem iPhone abgeglichen.',
+    alt: 'Timity auf einem MacBook: eine Seitenleiste mit Ereignisse, den Rechnern und Astronomie, die Ereignisliste mit zwei angehefteten Karten und einem Suchfeld und der Live-Countdown zur Reise nach Lissabon.',
+    points: [
+      '<strong>In der Menüleiste</strong> — deine nächsten Countdowns, nur einen Klick entfernt.',
+      '<strong>Für die Tastatur gemacht</strong> — mit den Pfeiltasten durch deine Ereignisse, ⌘F zum Suchen, ⌘N für ein neues.',
+      '<strong>Widgets auf dem Schreibtisch</strong> — und Ereignisse in eigenen Fenstern, mit Widerrufen.',
     ],
   },
 
