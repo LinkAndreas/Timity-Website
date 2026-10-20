@@ -184,15 +184,26 @@ export default {
   },
 
   ipad: {
-    eyebrow: 'iPad et Mac',
+    eyebrow: 'iPad',
     title: 'De la place pour chaque instant.',
-    lede: 'Sur iPad et Mac, une barre latérale vous emmène partout — vos événements, chaque calculateur, le soleil et la lune — avec la liste et le compte à rebours côte à côte.',
+    lede: 'Sur iPad, une barre latérale vous emmène partout — vos événements, chaque calculateur, le soleil et la lune — avec la liste et le compte à rebours côte à côte.',
     alt: 'Timity sur iPad : une barre latérale avec Évènements, Calculer, Soleil et Réglages, la liste des événements et le compte à rebours en direct du voyage à Lisbonne avec sa liste de contrôle.',
     points: [
       '<strong>Trois colonnes</strong> — barre latérale, liste et compte à rebours en même temps.',
       '<strong>Chaque calculateur</strong> à portée de toucher dans la barre latérale.',
       '<strong>Raccourcis clavier</strong> pour un nouvel événement, la recherche et plus encore.',
-      '<strong>Une vraie app Mac</strong> — vos prochains comptes à rebours dans la barre des menus, un menu Événement, des événements dans leur propre fenêtre, et Annuler.',
+    ],
+  },
+
+  mac: {
+    eyebrow: 'Mac',
+    title: 'Comme chez soi sur votre Mac.',
+    lede: 'Une vraie app Mac, pas une app iPad dans une fenêtre : vos événements, chaque calculateur, le soleil et la lune dans une seule fenêtre — synchronisés avec votre iPhone via iCloud.',
+    alt: 'Timity sur un MacBook : une barre latérale avec Évènements, les calculateurs et Astronomie, la liste des événements avec deux cartes épinglées et un champ de recherche, et le compte à rebours en direct du voyage à Lisbonne.',
+    points: [
+      '<strong>Dans la barre des menus</strong> — vos prochains comptes à rebours, à un clic.',
+      '<strong>Pensée pour le clavier</strong> — parcourez vos événements avec les flèches, ⌘F pour chercher, ⌘N pour en créer un.',
+      '<strong>Des widgets sur le bureau</strong> — et des événements dans leur propre fenêtre, avec Annuler.',
     ],
   },
 

@@ -7,6 +7,7 @@ import { escapeHtml, rel, routes, asset } from './util.js';
 const deviceSizes = {
   iphone: '(min-width: 960px) 340px, 70vw',
   ipad: '(min-width: 1100px) 1000px, 94vw',
+  mac: '(min-width: 1100px) 1000px, 94vw',
 };
 
 /**
@@ -191,7 +192,7 @@ export function renderHome(lang, t) {
     name: 'Timity',
     alternateName: t.meta.alternateName,
     applicationCategory: 'LifestyleApplication',
-    operatingSystem: 'iOS, iPadOS, watchOS',
+    operatingSystem: 'iOS, iPadOS, macOS, watchOS',
     description: t.meta.description,
     url: site.url + dir,
     downloadUrl: site.appStoreUrl,
@@ -393,6 +394,21 @@ export function renderHome(lang, t) {
           ${device(lang, 'ipad', 'ipad-event', { alt: t.ipad.alt, className: 'ipad__device reveal' })}
           <ul class="ipad__points" role="list">
             ${t.ipad.points.map((point) => `<li class="reveal">${point}</li>`).join('\n            ')}
+          </ul>
+        </div>
+      </section>
+
+      <!-- Mac -->
+      <section class="section section--mac" id="mac" aria-labelledby="mac-title">
+        <div class="container">
+          <header class="section__header section__header--center">
+            <p class="eyebrow reveal" style="--accent: var(--orange)">${t.mac.eyebrow}</p>
+            <h2 class="section__title reveal" id="mac-title">${t.mac.title}</h2>
+            <p class="section__lede reveal">${t.mac.lede}</p>
+          </header>
+          ${device(lang, 'mac', 'mac-event', { alt: t.mac.alt, className: 'mac__device reveal' })}
+          <ul class="ipad__points" role="list">
+            ${t.mac.points.map((point) => `<li class="reveal">${point}</li>`).join('\n            ')}
           </ul>
         </div>
       </section>

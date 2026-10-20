@@ -1,8 +1,8 @@
 // Builds the site's images from content/: icons, device mockups and the social preview image.
 //
 //   npm run images                     icons and social preview (keeps the device mockups)
-//   BEZELS=/Volumes npm run images     also the device mockups, with Bezel-iPhone-17 and
-//                                      Bezel-iPad-Pro-(M5) mounted there
+//   BEZELS=/Volumes npm run images     also the device mockups, with Bezel-iPhone-17,
+//                                      Bezel-iPad-Pro-(M5) and Bezel-MacBook-Neo mounted there
 //
 // Screenshots live in content/screenshots/<language>/<screen>-<light|dark>.webp, taken from the app
 // in that language and appearance.
@@ -71,6 +71,11 @@ const devices = {
   ipad: {
     bezel: 'Bezel-iPad-Pro-(M5)/PNG/iPad Pro (M5) 13" - Space Black - Landscape.png',
     screens: ['ipad-event'],
+    widths: [900, 1600],
+  },
+  mac: {
+    bezel: 'Bezel-MacBook-Neo/PNG/MacBook Neo - Silver.png',
+    screens: ['mac-event'],
     widths: [900, 1600],
   },
 };
