@@ -57,15 +57,20 @@ xcrun simctl launch <device> de.link.timity -ScreenshotSamples -syncsWithICloud 
 xcrun simctl ui <device> appearance dark
 ```
 
+`mac-event` comes from a debug build of the Mac app, copied with its own bundle ID so the samples don't replace
+your events, with its window at the MacBook Neo's screen size (1204×753 points), launched with
+`-ScreenshotSamples -syncsWithICloud "<false/>" -hasCompletedOnboarding YES -appearance <light|dark>` and the same
+language arguments, and captured with `screencapture -o -l <window id>` while the window is in front.
+
 Screens: `iphone-events`, `iphone-event` (Trip to Lisbon), `iphone-calculate`, `iphone-countdays` (Count Days) and
-`iphone-sun`, plus `ipad-event`. The countdown ticks every second; take a few shots of the event screens and keep
+`iphone-sun`, plus `ipad-event` and `mac-event`. The countdown ticks every second; take a few shots of the event screens and keep
 one where no digit is mid-animation. Save them as `content/screenshots/<lang>/<screen>-<light|dark>.webp` and run
 `npm run images`.
 
-The screenshots are composited into Apple's official bezels — the Cosmic Orange iPhone 17 Pro Max and the Space
-Black iPad Pro 13-inch (M5). The bezels are Apple Design Resources, licensed for mock-ups only: they must not be
-extracted or redistributed on their own, so they are **not** in this repository. Download `Bezel-iPhone-17` and
-`Bezel-iPad-Pro-(M5)` from [developer.apple.com/design/resources](https://developer.apple.com/design/resources/),
+The screenshots are composited into Apple's official bezels — the Cosmic Orange iPhone 17 Pro Max, the Space
+Black iPad Pro 13-inch (M5) and the Silver MacBook Neo. The bezels are Apple Design Resources, licensed for mock-ups only: they must not be
+extracted or redistributed on their own, so they are **not** in this repository. Download `Bezel-iPhone-17`,
+`Bezel-iPad-Pro-(M5)` and `Bezel-MacBook-Neo` from [developer.apple.com/design/resources](https://developer.apple.com/design/resources/),
 mount both, and run:
 
 ```bash
