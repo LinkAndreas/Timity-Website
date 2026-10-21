@@ -195,6 +195,18 @@ export default {
     ],
   },
 
+  duo: {
+    eyebrow: 'iPhone Duo',
+    title: 'Despliégalo y velo todo.',
+    lede: 'Plegado, es tu vistazo rápido sobre la marcha. Desplegado, todo lo que viene y cuánto falta está delante de ti.',
+    alt: 'Timity en un iPhone Duo desplegado: a la izquierda la lista de eventos con dos tarjetas fijadas, a la derecha la cuenta atrás en directo hasta el viaje a Lisboa.',
+    points: [
+      '<strong>Sobre la marcha</strong>: consulta tu próxima cuenta atrás con una mano.',
+      '<strong>De un vistazo</strong>: lo que viene y cuánto falta, juntos.',
+      '<strong>No falta nada</strong>: cada calculadora, el sol y la luna.',
+    ],
+  },
+
   mac: {
     eyebrow: 'Mac',
     title: 'Como en casa en tu Mac.',
