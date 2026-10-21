@@ -196,6 +196,18 @@ export default {
     ],
   },
 
+  duo: {
+    eyebrow: 'iPhone Duo',
+    title: 'Unfold for the bigger picture.',
+    lede: 'Folded, it’s your quick look on the go. Unfolded, everything coming up and how long to go is right there in front of you.',
+    alt: 'Timity on an unfolded iPhone Duo: the list of events with two pinned cards on the left, and the live countdown to a trip to Lisbon on the right.',
+    points: [
+      '<strong>On the go</strong> — check your next countdown with one hand.',
+      '<strong>At a glance</strong> — what’s coming up and how long to go, together.',
+      '<strong>Nothing left out</strong> — every calculator, the sun and the moon.',
+    ],
+  },
+
   mac: {
     eyebrow: 'Mac',
     title: 'Right at home on your Mac.',

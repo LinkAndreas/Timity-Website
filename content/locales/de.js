@@ -195,6 +195,18 @@ export default {
     ],
   },
 
+  duo: {
+    eyebrow: 'iPhone Duo',
+    title: 'Aufklappen für den Überblick.',
+    lede: 'Zugeklappt ist es dein schneller Blick unterwegs. Aufgeklappt hast du alles, was ansteht, und wie lange es noch dauert, direkt vor dir.',
+    alt: 'Timity auf einem aufgeklappten iPhone Duo: links die Ereignisliste mit zwei angehefteten Karten, rechts der Live-Countdown zur Reise nach Lissabon.',
+    points: [
+      '<strong>Unterwegs</strong> — deinen nächsten Countdown mit einer Hand checken.',
+      '<strong>Auf einen Blick</strong> — was ansteht und wie lange es noch dauert, zusammen.',
+      '<strong>Nichts fehlt</strong> — jeder Rechner, Sonne und Mond.',
+    ],
+  },
+
   mac: {
     eyebrow: 'Mac',
     title: 'Auf dem Mac zu Hause.',
