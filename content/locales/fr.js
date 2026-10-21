@@ -195,6 +195,18 @@ export default {
     ],
   },
 
+  duo: {
+    eyebrow: 'iPhone Duo',
+    title: 'Dépliez pour voir plus grand.',
+    lede: 'Plié, c’est votre coup d’œil rapide en déplacement. Déplié, tout ce qui vous attend et le temps qu’il reste sont sous vos yeux.',
+    alt: 'Timity sur un iPhone Duo déplié : à gauche la liste des événements avec deux cartes épinglées, à droite le compte à rebours en direct jusqu’au voyage à Lisbonne.',
+    points: [
+      '<strong>En déplacement</strong> — consultez votre prochain compte à rebours d’une main.',
+      '<strong>En un coup d’œil</strong> — ce qui vous attend et le temps qu’il reste, ensemble.',
+      '<strong>Rien ne manque</strong> — chaque calculateur, le soleil et la lune.',
+    ],
+  },
+
   mac: {
     eyebrow: 'Mac',
     title: 'Comme chez soi sur votre Mac.',

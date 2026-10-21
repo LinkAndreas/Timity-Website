@@ -46,8 +46,8 @@ instead.
 
 ## Screenshots and device mockups
 
-The screenshots were taken from a debug build in the iOS Simulator (iPhone 17 Pro Max, and iPad Pro 13-inch in
-landscape), once per language and appearance, with a clean status bar and the app's sample events:
+The screenshots were taken from a debug build in the iOS Simulator (iPhone 17 Pro Max, iPad Pro 13-inch in
+landscape, and iPhone Duo unfolded in landscape — its inner display, `xcrun simctl io <device> screenshot --display=<inner display id>`), once per language and appearance, with a clean status bar and the app's sample events:
 
 ```bash
 xcrun simctl status_bar <device> override --time "9:41" --batteryState discharging --batteryLevel 100
@@ -63,15 +63,15 @@ your events, with its window at the MacBook Neo's screen size (1204×753 points)
 language arguments, and captured with `screencapture -o -l <window id>` while the window is in front.
 
 Screens: `iphone-events`, `iphone-event` (Trip to Lisbon), `iphone-calculate`, `iphone-countdays` (Count Days) and
-`iphone-sun`, plus `ipad-event` and `mac-event`. The countdown ticks every second; take a few shots of the event screens and keep
+`iphone-sun`, plus `ipad-event`, `duo-event` and `mac-event`. The countdown ticks every second; take a few shots of the event screens and keep
 one where no digit is mid-animation. Save them as `content/screenshots/<lang>/<screen>-<light|dark>.webp` and run
 `npm run images`.
 
 The screenshots are composited into Apple's official bezels — the Cosmic Orange iPhone 17 Pro Max, the Space
-Black iPad Pro 13-inch (M5) and the Silver MacBook Neo. The bezels are Apple Design Resources, licensed for mock-ups only: they must not be
+Black iPad Pro 13-inch (M5), the Night Sky iPhone Duo (unfolded) and the Silver MacBook Neo. The bezels are Apple Design Resources, licensed for mock-ups only: they must not be
 extracted or redistributed on their own, so they are **not** in this repository. Download `Bezel-iPhone-17`,
-`Bezel-iPad-Pro-(M5)` and `Bezel-MacBook-Neo` from [developer.apple.com/design/resources](https://developer.apple.com/design/resources/),
-mount both, and run:
+`Bezel-iPad-Pro-(M5)`, `Bezel-iPhone-Duo` and `Bezel-MacBook-Neo` from [developer.apple.com/design/resources](https://developer.apple.com/design/resources/),
+mount them, and run (add `DEVICES=duo,mac` to rebuild only those):
 
 ```bash
 BEZELS=/Volumes npm run images

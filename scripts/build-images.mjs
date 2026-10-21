@@ -2,7 +2,9 @@
 //
 //   npm run images                     icons and social preview (keeps the device mockups)
 //   BEZELS=/Volumes npm run images     also the device mockups, with Bezel-iPhone-17,
-//                                      Bezel-iPad-Pro-(M5) and Bezel-MacBook-Neo mounted there
+//                                      Bezel-iPad-Pro-(M5), Bezel-iPhone-Duo and Bezel-MacBook-Neo
+//                                      mounted there
+//   DEVICES=duo,mac ...                only these device mockups (the others are kept)
 //
 // Screenshots live in content/screenshots/<language>/<screen>-<light|dark>.webp, taken from the app
 // in that language and appearance.
@@ -73,6 +75,12 @@ const devices = {
     screens: ['ipad-event'],
     widths: [900, 1600],
   },
+  // Unfolded, on its inner display.
+  duo: {
+    bezel: 'Bezel-iPhone-Duo/PNG/iPhone Duo - Night Sky - Inner Open Landscape.png',
+    screens: ['duo-event'],
+    widths: [800, 1400],
+  },
   mac: {
     bezel: 'Bezel-MacBook-Neo/PNG/MacBook Neo - Silver.png',
     screens: ['mac-event'],
@@ -130,7 +138,9 @@ async function inBezel(bezelFile, area, screenshotFile) {
   return sharp(composited).extract(area.bounds).png().toBuffer();
 }
 
+const only = process.env.DEVICES?.split(',');
 for (const [kind, device] of Object.entries(devices)) {
+  if (only && !only.includes(kind)) continue;
   const bezelFile = process.env.BEZELS && path.join(process.env.BEZELS, device.bezel);
   if (!bezelFile || !existsSync(bezelFile)) {
     console.log(`${kind}: BEZELS not set or bezel not found — kept the existing mockups.`);

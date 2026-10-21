@@ -7,6 +7,7 @@ import { escapeHtml, rel, routes, asset } from './util.js';
 const deviceSizes = {
   iphone: '(min-width: 960px) 340px, 70vw',
   ipad: '(min-width: 1100px) 1000px, 94vw',
+  duo: '(min-width: 900px) 820px, 94vw',
   mac: '(min-width: 1100px) 1000px, 94vw',
 };
 
@@ -394,6 +395,21 @@ export function renderHome(lang, t) {
           ${device(lang, 'ipad', 'ipad-event', { alt: t.ipad.alt, className: 'ipad__device reveal' })}
           <ul class="ipad__points" role="list">
             ${t.ipad.points.map((point) => `<li class="reveal">${point}</li>`).join('\n            ')}
+          </ul>
+        </div>
+      </section>
+
+      <!-- iPhone Duo -->
+      <section class="section section--duo" id="duo" aria-labelledby="duo-title">
+        <div class="container">
+          <header class="section__header section__header--center">
+            <p class="eyebrow reveal" style="--accent: var(--orange)">${t.duo.eyebrow}</p>
+            <h2 class="section__title reveal" id="duo-title">${t.duo.title}</h2>
+            <p class="section__lede reveal">${t.duo.lede}</p>
+          </header>
+          ${device(lang, 'duo', 'duo-event', { alt: t.duo.alt, className: 'duo__device reveal' })}
+          <ul class="ipad__points" role="list">
+            ${t.duo.points.map((point) => `<li class="reveal">${point}</li>`).join('\n            ')}
           </ul>
         </div>
       </section>
